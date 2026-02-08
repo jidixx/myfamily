@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+body{
+    background-color: blueviolet;
+}
+body {
+  display: center;
+  flex-direction: column;
+  gap: 29px;
+  max-width: 200px;
+  margin: auto;
+}
+img{
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+}
+button{
+    font-size: 19px;
+    border: none;
+    border-radius: 13px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.names {
+  display: flex;           /* горизонтальное расположение */
+  gap: 15px;               /* расстояние между кнопками */
+  justify-content: center; /* по центру */
+  margin-bottom: 20px;     /* отступ от блока info */
+}
+
+.names button {
+  padding: 10px 20px;      /* размер кнопки */
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.info {
+  width: 150px;             /* ширина блока info */
+  height: auto;             /* высота по содержимому */
+  background-color: white;  /* белый фон */
+  padding: 15px;            /* отступы внутри блока */
+  border-radius: 10px;      /* скруглённые углы */
+  border: 1px solid #ccc;   /* рамка */
+  text-align: center;       /* центр текста */
+}
+
+.info img {
+  max-width: 100%;          /* вписывается в ширину блока */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;      /* отступ между фото и текстом */
+}
+
+
